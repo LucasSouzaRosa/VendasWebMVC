@@ -15,7 +15,7 @@ namespace VendasWebMVC.Controllers
             return View();
         }
 
-        public IActionResult Sobre()
+        public IActionResult About()
         {
             ViewData["Message"] = "Sales App";
             ViewData["Responsavel"] = "Lucas Rosa";
@@ -23,7 +23,7 @@ namespace VendasWebMVC.Controllers
             return View();
         }
 
-        public IActionResult Contato()
+        public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
 
