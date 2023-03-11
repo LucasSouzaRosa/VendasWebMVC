@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using VendasWebMVC.Models;
+using VendasWebMVC.Models.ViewModels;
 
 namespace VendasWebMVC.Controllers
 {
@@ -15,7 +15,7 @@ namespace VendasWebMVC.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Sobre()
         {
             ViewData["Message"] = "Sales App";
             ViewData["Responsavel"] = "Lucas Rosa";
@@ -23,7 +23,7 @@ namespace VendasWebMVC.Controllers
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Contato()
         {
             ViewData["Message"] = "Your contact page.";
 
