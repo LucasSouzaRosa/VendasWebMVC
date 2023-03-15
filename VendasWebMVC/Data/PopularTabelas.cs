@@ -17,10 +17,10 @@ namespace VendasWebMVC.Data
 
         public void Alimentar()
         {
-            /*if (_context.Departamento.Any() || _context.Vendedor.Any() || _context.RegistroVendas.Any())
+            if (_context.Departamento.Any() || _context.Vendedor.Any() || _context.RegistroVendas.Any())
             {
                 return; // banco já está alimentado
-            }*/
+            }
 
             Departamento d1 = new Departamento(2, "Perfumaria");
             Departamento d2 = new Departamento(3, "Casa, mesa e banho");
