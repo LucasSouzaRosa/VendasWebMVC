@@ -40,3 +40,4 @@ C:\Users\lucas\source\repos\VendasWebMVC\VendasWebMVC\obj\Debug\netcoreapp2.1\Ra
 C:\Users\lucas\source\repos\VendasWebMVC\VendasWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
 C:\Users\lucas\source\repos\VendasWebMVC\VendasWebMVC\obj\Debug\netcoreapp2.1\VendasWebMVC.csproj.AssemblyReference.cache
 C:\Users\lucas\source\repos\VendasWebMVC\VendasWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Vendedores\Index.cshtml.g.cs
+C:\Users\lucas\source\repos\VendasWebMVC\VendasWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Vendedores\Create.cshtml.g.cs
