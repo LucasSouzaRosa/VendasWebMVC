@@ -11,6 +11,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using VendasWebMVC.Data;
+using VendasWebMVC.Services;
 
 namespace VendasWebMVC
 {
@@ -40,6 +41,7 @@ namespace VendasWebMVC
                     options.UseMySql(Configuration.GetConnectionString("VendasWebMVCContext"), builder => builder.MigrationsAssembly("VendasWebMVC")));
 
             services.AddScoped<PopularTabelas>();
+            services.AddScoped<VendedorService>();
         
         }
 
